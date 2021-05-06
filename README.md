@@ -1,3 +1,4 @@
 # C-training
-Just exercises i''m doing to study C.
+Just exercises I am doing to study C. 
+They are in pt-br.\n
 For testing, just complie a .c file.
