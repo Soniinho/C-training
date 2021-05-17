@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
 
-    int n[6], i;
+    int n[7], i;
 
     printf("Será pedido para digitar 7 números. Aperte \"enter\" para continuar...");
     getchar();
