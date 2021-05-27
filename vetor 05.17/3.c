@@ -3,7 +3,7 @@
 #include <locale.h> //fold all comments
 
 int main()
-{
+{ //fazer comprar mais de uma coisa por vez
     setlocale(LC_ALL, "portuguese");
 
     int i, j, cod_igual;
