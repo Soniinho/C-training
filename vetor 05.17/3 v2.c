@@ -1,3 +1,5 @@
+//vetor 05.17 ex 3
+
 #include <stdio.h>  //f6 para compilar
 #include <stdlib.h> //encoding windows 1252(Western)
 #include <locale.h> //fold all comments
@@ -8,7 +10,7 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
 
-    int i, existe;
+    int i, existe = 0;
     int cod_produtos[Q], total_estoque[Q];
     int cod_cliente, cod_compra, qtd_produto;
 
@@ -39,7 +41,7 @@ int main()
             }
         }
 
-        if (existe = 1)
+        if (existe == 1)
         {
             printf("Digite quanto deseja comprar: ");
             scanf("%d%*c", &qtd_produto);
@@ -60,6 +62,10 @@ int main()
                 total_estoque[i] = 0;
             }
             existe = 0;
+        }
+        else
+        {
+            printf("\nEsse código de produto não existe em nosso estoque.");
         }
 
         printf("\n\nDigite o seu código de cliente (0 finaliza as compras): ");
